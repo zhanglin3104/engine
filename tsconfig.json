@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"out": "./engine/out/engine.js",
+		"declaration": true
+	},
+	"files": [
+		"src/core/math.ts",
+		"src/core/resource.ts",
+		"src/core/ticker.ts",
+		"src/core/touchevent.ts",
+		"src/core/displaylist.ts",
+		"src/platforms/browser/driver.ts"
+	]
+}
